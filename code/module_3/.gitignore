@@ -1,0 +1,4 @@
+*.o
+*.so
+dist/*
+test_lib.egg-info

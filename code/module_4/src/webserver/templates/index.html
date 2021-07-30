@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+<div>
+    <h1>Available packages</h1>
+    {% for file_to_serve in files_to_serve %}
+    <a href="files/{{ file_to_serve }}">{{ file_to_serve }}</a></br>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,7 @@
+language = "python3"
+run = "cd code/module_1/src && python -m binary_reader -c ../config/data_spec.xml --input-data ../data/*.dat"
+#run = "cd code/module_1/src && python -m binary_reader -c ../config/data_spec.json --input-data ../data/*.dat"
+#run = "/bin/bash code/module_2/build.sh"
+#run = "/bin/bash code/module_3/build.sh"
+#run = "cd code/module_4/src && python -m webserver"
+#run = "cd code/module_5/src && python -m scraper"

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<root>
+    <packet>
+        <description>
+            Hei, I am packet data
+        </description>
+        <header>
+            <attribute name="packet_type" offset="0" size="1" type="short" />
+            <attribute name="version" offset="1" size="4" type="str" />
+            <attribute name="quality" offset="5" size="1" type="bool" />
+        </header>
+        <payload>
+            <variable name="radiance" offset="6" size="4" type="int" />
+            <variable name="vibration_factor" offset="10" size="4" type="double" />
+        </payload>
+    </packet>
+</root>

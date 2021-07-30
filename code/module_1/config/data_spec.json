@@ -1,0 +1,44 @@
+{
+  "version": "Test configuration v.0.1",
+  "author": {
+    "name": "Viktor Porvaznik",
+    "email": "viktor.porvaznik@cgi.com"
+  },
+  "packet": {
+    "description": "description test",
+    "header": [
+      {
+        "name": "packet_type",
+        "offset": 0,
+        "size": 1,
+        "type": "short"
+      },
+      {
+        "name": "version",
+        "offset": 1,
+        "size": 4,
+        "type": "str"
+      },
+      {
+        "name": "quality",
+        "offset": 5,
+        "size": 1,
+        "type": "bool"
+      }
+    ],
+    "payload": [
+      {
+        "name": "radiance",
+        "offset": 6,
+        "size": 4,
+        "type": "int"
+      },
+      {
+        "name": "vibration_factor",
+        "offset": 10,
+        "size": 4,
+        "type": "double"
+      }
+    ]
+  }
+}

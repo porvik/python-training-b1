@@ -1,0 +1,7 @@
+.idea
+.run
+**/*.iml
+**/intelij_env
+env
+presentation/dist
+presentation/generated
