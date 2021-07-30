@@ -5,3 +5,5 @@
 env
 presentation/dist
 presentation/generated
+poetry.lock
+pyproject.toml
